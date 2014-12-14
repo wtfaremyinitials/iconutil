@@ -1,29 +1,30 @@
 {
-    "name": "iconutil",
-    "version": "0.0.0",
-    "description": "Convert between PNG/Iconsets and .ICNS files",
-    "author": {
-        "name": "Will Franzen",
-        "email": "wtfranzen@gmail.com",
-        "url": "http://will.xyz"
-    },
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/wtfaremyinitials/iconutil.git"
-    },
-    "main": "index.js",
-    "dependencies": {
-        "exec-sync": "^0.1.6"
-    },
-    "keywords": [
-        "osx",
-        "yosemite",
-        "xcode",
-        "iconutil",
-        "icns",
-        "icons",
-        "iconset",
-        "convert"
-    ]
+  "name": "iconutil",
+  "version": "0.0.0",
+  "description": "Convert between PNG/Iconsets and .ICNS files",
+  "author": {
+    "name": "Will Franzen",
+    "email": "wtfranzen@gmail.com",
+    "url": "http://will.xyz"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtfaremyinitials/iconutil.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "exec-sync": "^0.1.6",
+    "uuid": "^2.0.1"
+  },
+  "keywords": [
+    "osx",
+    "yosemite",
+    "xcode",
+    "iconutil",
+    "icns",
+    "icons",
+    "iconset",
+    "convert"
+  ]
 }
