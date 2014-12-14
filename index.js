@@ -53,3 +53,26 @@ module.exports.toIconset = function(file, cb) {
         });
     });
 };
+
+module.exports.toICNS = function(file, cb) {
+    var id = uuid.v1();
+
+    var outpath = TEMP_PATH + id + '.icns';
+
+    exec('iconutil --convert icns "' + file + '" --output "' + outpath + '"', function(err, stdout) {
+        if(err) {
+            cb('No iconset folder found!', undefined);
+            return;
+        }
+
+        fs.readFile(outpath, function(err, data) {
+            if(err) {
+                cb(err, undefined);
+                return;
+            }
+
+            cb(data);
+            fs.unlink(outpath);
+        });
+    });
+};
