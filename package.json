@@ -1,6 +1,6 @@
 {
   "name": "iconutil",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert between PNG/Iconsets and .ICNS files",
   "author": {
     "name": "Will Franzen",
