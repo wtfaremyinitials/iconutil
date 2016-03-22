@@ -1,6 +1,6 @@
 {
   "name": "iconutil",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert between PNG/Iconsets and .ICNS files",
   "author": {
     "name": "Will Franzen",
@@ -14,7 +14,6 @@
   },
   "main": "index.js",
   "dependencies": {
-    "exec-sync": "^0.1.6",
     "uuid": "^2.0.1"
   },
   "keywords": [
