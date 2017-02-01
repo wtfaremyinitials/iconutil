@@ -14,7 +14,7 @@ var rmdir = function(path) {
                 unlinked++;
 
                 if(unlinked == files.length) {
-                    fs.rmdir(path);
+                    fs.rmdir(path, function() {});
                 }
             });
         });
