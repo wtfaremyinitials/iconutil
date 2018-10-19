@@ -26,7 +26,7 @@ var iconutil = require('iconutil');
 var path = '/Applications/Messages.app/Contents/Resources/Messages.icns';
 
 iconutil.toIconset(path, function(err, icons) {
-    // icons is an an object where keys are the file names
+    // icons is an object where keys are the file names
     // and the values are Buffers containing PNG files
 });
 ```
